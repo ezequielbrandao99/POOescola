@@ -46,7 +46,7 @@ def aluno():
         '\nFilosofia: 10' \
         '\nFisica: 10' \
         '\nP.O.O: 10')
-
+        n1 = float
     if funcaoaluno == 2:
         n1 = float(input('Nota 1: '))
         n2 = float(input('\nNota 2: '))
@@ -1046,5 +1046,5 @@ def gestor():
 
 menu()
 
-git config --global user.email "ezequielbrandao001@gmail.com"
-git config --global user.name "ezequielbrandao99"
+#git config --global user.email "ezequielbrandao001@gmail.com"
+#git config --global user.name "ezequielbrandao99"
