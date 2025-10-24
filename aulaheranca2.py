@@ -10,7 +10,7 @@ class introducao:
     print('\nBem vindo ao sistema de verificação de IPVA')
     escolha = int(input('''Para comerçarmos, digite: 
                         1 - IPVA -> carro
-                        2 - IPVA ->  moto'''))
+                        2 - IPVA ->  moto: '''))
     
     if escolha == 1:
 
