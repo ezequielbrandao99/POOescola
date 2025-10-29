@@ -1045,6 +1045,3 @@ def gestor():
             print('a notificação: ', mensagem, 'foi enviada com sucesso!')
 
 menu()
-
-git config --global user.email "ezequielbrandao001@gmail.com"
-git config --global user.name "ezequielbrandao99"
