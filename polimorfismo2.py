@@ -26,7 +26,7 @@ def acelerar(obj):
     obj.acelerar()
 
 def abrir_porta(obj):
-    obj.abrir_porta()
+    obj.abrir_porta() 
 
 
 c = carro()
