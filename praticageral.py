@@ -36,10 +36,11 @@ class veiculo:
                                 self.marca = 'Volkswagen'
                             else:
                                 print('opção inválida, escolha novamente')
+                                exit()
 
-                            self.modelo = str(input('Digite o modelo que deseja: '))
-                            self.cor = str(input('Digite a cor que deseja: '))
-                            print(f'Obrigado por escolher nossa concessionaria! Em breve entraremos em contato para a entrega de {self.marca} {self.modelo} {self.cor}.')
+                        self.modelo = str(input('Digite o modelo que deseja: '))
+                        self.cor = str(input('Digite a cor que deseja: '))
+                        print(f'Obrigado por escolher nossa concessionaria! Em breve entraremos em contato para a entrega de {self.marca} {self.modelo} {self.cor}.')
 
                         super().__init__(marca, modelo, cor)
                 carro()
@@ -90,7 +91,9 @@ class veiculo:
                                 valor_parcela = valor_consorcio / parcelas
                                 print(f'Seu consórcio será parcelado em {parcelas}x de R$ {valor_parcela}')
                                 print('Obrigado por escolher nossa concessionaria! Em breve entraremos em contato para finalizar a compra parcelada.')
-                        
+
+                            else:
+                                print('Opção inválida, escolha novamente')
                 consorcio()
             exit()
 
