@@ -23,6 +23,9 @@ class veiculo:
                     def __init__(self, marca = None, modelo = None, cor = None):
                         marca = str(input('Voce tem preferencia de marca? '))
 
+                        if marca == 'nao' or 'NAO' or marca == 'não' or 'NÃO':
+                            print('Tudo bem, temos vários modelos para você escolher!') 
+
                         if marca == 'sim' or 'SIM':
                             print('Escolha qual marca prefere: ')
                             opcao = int(input('1 - Peugeot\n2 - Fiat\n3 - Chevrolet\n4 - Volkswagen\n'))
