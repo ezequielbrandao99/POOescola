@@ -4,16 +4,16 @@ Bem-vindo(a) ao meu repositório!
 Este espaço foi criado para compartilhar conteúdos e atividades da disciplina de **Programação Orientada a Objetos (POO) em Python**, além de outros materiais do curso.
 
 📚 Sobre a Disciplina
-Esta disciplina é de **Programação Orientada a Objetos em C**, onde exploramos conceitos como:
+Esta disciplina é de **Programação Orientada a Objetos em Python**, onde exploramos conceitos como:
 - Classes e Objetos  
 - Encapsulamento  
 - Herança  
 - Polimorfismo  
-- Entre outros tópicos de POO
+- Entre outros tópicos e aplicações de POO
 
 👨‍💻 Composição do Repositório
 - Integrantes: Ezequiel de Lima Brandão  
-- Turma: Desenvolvimento de Sistemas – 2º Ano
+- Turma: Desenvolvimento de Sistemas – 3º Ano
 
 💡 Conteúdos Compartilhados
 Aqui você encontrará materiais e códigos de:
