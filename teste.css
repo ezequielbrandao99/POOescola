@@ -1,0 +1,32 @@
+.topo{
+    gap: 100px;
+    background-color: lightblue;
+    text-align: center;
+    font-style: italic;
+    color: grey;
+    margin: -10px;
+    padding: 35px;
+}
+.corpopag{
+    background-color: lightgrey;
+    text-align: justify;
+    margin: -10px;
+    padding: 35px;
+}
+.texto1{
+    color: red;
+    font-size: 20px;
+}
+
+.texto2{
+    color: blue;
+    font-size: 18px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    padding: 00px;
+    margin: 0px;
+    height: 150px;
+    width: 150px;
+}
